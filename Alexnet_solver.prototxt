@@ -1,0 +1,14 @@
+net: "/home/sathish/scripts/train_val.prototxt"
+test_iter: 1000
+test_interval: 21000
+base_lr: 0.01
+lr_policy: "step"
+gamma: 0.1
+stepsize: 20000
+display: 20
+max_iter: 25000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 25000
+snapshot_prefix: "/home/sathish/scripts/models/caffe_alexnet_train"
+solver_mode: GPU
