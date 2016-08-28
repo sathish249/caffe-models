@@ -13,7 +13,7 @@ layer {
     mirror: true
  }
  data_param {
-    source: "/home/david/deepLearning/data/imagenet/ilsvrc12_train_lmdb"
+    source: "/home/sathish/ilsvrc12_train_lmdb"
     batch_size: 64
     backend: LMDB
   }
@@ -34,7 +34,7 @@ layer {
     mirror: false
  }
  data_param {
-    source: "/home/david/deepLearning/data/imagenet/ilsvrc12_val_lmdb"
+    source: "/home/sathish/ilsvrc12_val_lmdb"
     batch_size: 20
     backend: LMDB
   }
